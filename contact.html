@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Contact — Vadithe Akhila</title>
+  <link rel="stylesheet" href="styles.css"/>
+  <style>
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 32px;
+    }
+    .contact-info {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    .info-card {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      border: 1px solid var(--sage-200);
+      border-radius: 8px;
+      background: #fff;
+      padding: 16px;
+    }
+    .icon-box {
+      background: var(--sage-100);
+      color: var(--sage-600);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 6px;
+      width: 40px;
+      height: 40px;
+      font-size: 18px;
+    }
+    .availability {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      border: 1px solid var(--sage-200);
+      border-radius: 8px;
+      background: #fff;
+      padding: 12px 16px;
+    }
+    .availability-dot {
+      width: 10px;
+      height: 10px;
+      background: green;
+      border-radius: 50%;
+    }
+    .contact-form label {
+      font-weight: 600;
+      display: block;
+      margin-top: 12px;
+      margin-bottom: 6px;
+    }
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      border-radius: 6px;
+      border: 1px solid var(--sage-200);
+      font-size: 14px;
+    }
+    .contact-form button {
+      margin-top: 16px;
+      width: 100%;
+      padding: 14px 18px;
+      border: none;
+      background: var(--sage-600);
+      color: #fff;
+      font-weight: 600;
+      border-radius: 6px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+    }
+    .contact-form button:hover {
+      background: var(--sage-700);
+    }
+    .success {
+      display: none;
+      margin-top: 10px;
+      padding: 10px;
+      border-radius: 6px;
+      background: #f0fdf4;
+      border: 1px solid #86efac;
+      color: #166534;
+      font-weight: 500;
+    }
+    @media (max-width: 768px) {
+      .contact-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+<header class="nav">
+  <div class="container nav-inner">
+    <a class="brand" href="index.html">Vadithe Akhila</a>
+    <nav class="menu">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="skills.html">Skills</a>
+      <a href="projects.html">Projects</a>
+      <a href="experience.html">Experience</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container section">
+  <div class="center" style="margin-bottom:32px">
+    <h2 style="font-size:36px;color:var(--sage-700)">Get In <span style="color:var(--sage-600)">Touch</span></h2>
+    <p class="hero-text">Let's discuss opportunities, collaborations, or any questions you might have</p>
+  </div>
+
+  <div class="contact-grid">
+    <!-- Left Column -->
+    <section>
+      <h3 style="color:var(--sage-700);margin-bottom:12px">Let's Start a Conversation</h3>
+      <p class="muted" style="margin-bottom:20px">
+        I’m open to opportunities, collaborations, and connecting with fellow professionals—feel free to reach out.
+      </p>
+
+     <div class="info-card">
+  <div class="icon-box">
+    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="none" stroke="#6a734e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="10" width="24" height="16" rx="6" ry="6"/><polyline points="6 12 18 22 30 12"/></svg>
+  </div>
+  <div>
+    <strong>Email</strong><br>
+    <a href="mailto:vaditheakhila162@gmail.com">vaditheakhila162@gmail.com</a>
+  </div>
+</div>
+
+<div class="info-card">
+  <div class="icon-box">
+    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="none" stroke="#6a734e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M30 26.92V29a2 2 0 0 1-2.18 2A23.86 23.86 0 0 1 6 11.18 2 2 0 0 1 8 9h2.09a2 2 0 0 1 2 1.72c.13.81.28 1.61.46 2.39a2 2 0 0 1-.45 2.11l-1.27 1.27a20 20 0 0 0 8.29 8.29l1.27-1.27a2 2 0 0 1 2.11-.45c.78.18 1.58.33 2.39.46A2 2 0 0 1 30 26.92z"/></svg>
+  </div>
+  <div>
+    <strong>Phone</strong><br>
+    <a href="tel:+917816084534">+91-7816084534</a>
+  </div>
+</div>
+
+<div class="info-card">
+  <div class="icon-box">
+    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="none" stroke="#6a734e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="18" cy="16" r="6"/>
+  <path d="M18 4c7 0 12 5 12 12 0 7-12 16-12 16S6 23 6 16C6 9 11 4 18 4z"/>
+</svg>
+  </div>
+  <div>
+    <strong>Location</strong><br>
+    522426 – Macherla
+  </div>
+</div>
+
+<div class="info-card">
+  <div class="icon-box">
+    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="none" stroke="#6a734e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="6" width="24" height="24" rx="6" ry="6"/><line x1="13" y1="27" x2="13" y2="19"/><line x1="13" y1="15" x2="13" y2="15"/><line x1="19" y1="27" x2="19" y2="21"/><path d="M19 15a5 5 0 0 1 10 0v12"/></svg>
+  </div>
+  <div>
+    <strong>LinkedIn</strong><br>
+    <a href="https://linkedin.com/in/vadithe-akhila-7a2627264" target="_blank">vadithe-akhila-7a2627264</a>
+  </div>
+</div>
+
+<div class="info-card">
+  <div class="icon-box">
+    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="none" stroke="#6a734e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6C9.268 6 3 12.268 3 20c0 6.075 3.925 11.225 9.375 13.125.687.125.938-.3.938-.662 0-.325-.012-1.188-.018-2.325-3.813.825-4.625-1.838-4.625-1.838-.625-1.587-1.525-2.012-1.525-2.012-1.25-.85.1-.832.1-.832 1.375.1 2.1 1.412 2.1 1.412 1.225 2.1 3.212 1.487 4 .113.125-.887.475-1.487.862-1.825-3.05-.35-6.262-1.525-6.262-6.8 0-1.5.537-2.725 1.425-3.687-.15-.35-.625-1.762.137-3.687 0 0 1.175-.375 3.85 1.425A13.36 13.36 0 0 1 18 13.25c1.187.005 2.387.162 3.512.475 2.675-1.8 3.85-1.425 3.85-1.425.762 1.925.287 3.337.137 3.687.888.962 1.425 2.187 1.425 3.687 0 5.287-3.212 6.45-6.275 6.792.487.425.925 1.262.925 2.55 0 1.838-.017 3.325-.017 3.775 0 .362.25.787.95.662C30.075 33.225 34 28.075 34 22c0-7.732-6.268-14-14-14z"/></svg>
+  </div>
+  <div>
+    <strong>GitHub</strong><br>
+    <a href="https://github.com/vaditheakhila" target="_blank">github.com/vaditheakhila</a>
+  </div>
+</div>
+<div class="availability">
+          <div class="availability-dot"></div>
+          <div>
+            <strong>Available for Opportunities</strong><br>
+            <span class="muted">Open to internships, full-time positions, and freelance projects</span>
+          </div>
+        </div>
+    
+
+
+    </section>
+
+    <!-- Right Column -->
+    <section>
+      <h3 style="color:var(--sage-700);margin-bottom:12px">Send a Message</h3>
+      <form id="contact-form" class="contact-form">
+        <label for="name">Name *</label>
+        <input type="text" id="name" name="name" required placeholder="Your full name">
+
+        <label for="email">Email *</label>
+        <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+
+        <label for="subject">Subject *</label>
+        <input type="text" id="subject" name="subject" required placeholder="What would you like to discuss?">
+
+        <label for="message">Message *</label>
+        <textarea id="message" name="message" required placeholder="Your message here..."></textarea>
+
+        <button type="submit">✈ Send Message</button>
+        <div id="success" class="success">✅ Message sent successfully! I’ll get back to you soon.</div>
+      </form>
+    </section>
+  </div>
+</main>
+
+<footer class="footer">© <span id="y"></span> Vadithe Akhila • Macherla 522426</footer>
+<script>
+document.getElementById('y').textContent=new Date().getFullYear();
+const form = document.getElementById("contact-form");
+const success = document.getElementById("success");
+form.addEventListener("submit", (e)=>{
+  e.preventDefault();
+  success.style.display = "block";
+  form.reset();
+  setTimeout(()=> success.style.display = "none", 5000);
+});
+</script>
+</body>
+</html>
