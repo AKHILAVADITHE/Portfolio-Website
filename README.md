@@ -50,6 +50,7 @@ portfolio/
 ├── styles.css
 └── script.js
 
+
 🔗 Usage
 
 Clone or download the repository and open index.html in your browser to view the portfolio. Fully responsive, no backend required.
